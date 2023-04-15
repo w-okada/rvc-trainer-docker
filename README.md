@@ -27,6 +27,9 @@
    - http://`<address>`:7865/
 
 9. Enter the speaker's name. Foler name includes the training data is `/rvc/raw-data`.
-10. run the training as usual.
 
-11. the weights is in trainer/weights
+10. Run the training as usual.
+
+11. The weights is in trainer/weights
+
+12. Run with [VC_Client](https://github.com/w-okada/voice-changer)!
