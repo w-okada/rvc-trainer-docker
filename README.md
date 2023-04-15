@@ -12,13 +12,13 @@
 
 2. Download hubert_base.pt from [here](https://huggingface.co/lj1995/VoiceConversionWebUI/tree/main). Copy it to docker_trainer/hubert.
 
-3. Download mute from [here](https://github.com/liujing04/Retrieval-based-Voice-Conversion-WebUI/tree/main/logs/mute/0_gt_wavs). Copy them to trainer/logs/mute/0_gt_wavs/
+3. Run `npm run build:docker:trainer`
 
-4. Run `npm run build:docker:trainer`
+4. Put training data into trainer/raw-data
 
-5. Put training data into trainer/raw-data
+5. Launch docker image `bash start_trainer.sh`
 
-6. Launch docker image `bash start_trainer.sh`
+6. In docker container, run `cp -r logs_org/mute logs/`
 
 7. In docker container, run `python infer-web.py`
 
