@@ -1,0 +1,13 @@
+{
+  "name": "rvc-trainer-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:docker:trainer": "date +%Y%m%d%H%M%S > docker_trainer/dummy && DOCKER_BUILDKIT=1 docker build -f docker_trainer/Dockerfile docker_trainer/ -t rvc-trainer",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
