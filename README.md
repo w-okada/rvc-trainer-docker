@@ -12,7 +12,7 @@
 
 2. Download hubert_base.pt from [here](https://huggingface.co/lj1995/VoiceConversionWebUI/tree/main). Copy it to docker_trainer/hubert.
 
-3. Download mute from [here](https://github.com/liujing04/Retrieval-based-Voice-Conversion-WebUI/tree/main/logs/mute/0_gt_wavs). Copy them to trainer/logs/0_gt_wavs/
+3. Download mute from [here](https://github.com/liujing04/Retrieval-based-Voice-Conversion-WebUI/tree/main/logs/mute/0_gt_wavs). Copy them to trainer/logs/mute/0_gt_wavs/
 
 4. Run `npm run build:docker:trainer`
 
